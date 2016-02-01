@@ -4,39 +4,58 @@ body {
     color: rgb(17, 63, 89);
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-style: 700;
+}
+
+.title-style h4 {
+    font-style: 400;
+} 
+
+.title-style {
     color: rgb(213,79,88);
 }
 
 a {
     color: rgb(17,63,89);
-    text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
     color: rgb(32,214,199);
+}
+
+.text-undecorated {
     text-decoration: none;
 }
 
 
-/*///////////////DIV//////////////////*/
+/*//////////////////DIV//////////////////*/
 #container {
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
+    padding: 10px;
 }
 
-.card {
-    background-color: rgb(255,255,255);
+.text-center {
     text-align: center;
 }
 
-#bio {
-    margin: 25 0;
+.div-box {
+    background-color: rgb(255,255,255);
+    box-shadow: 2px 2px 2px rgb(148,144,128);
 }
 
-ul {
+.border-rounded {
+    border-radius: 6px;
+}
+
+.list-unlisted {
     list-style: none;
-    padding: 0;
+    padding-left: 0;
+}
+
+.list-inline > li {
+    display: inline-block;
+    width: 95px;
 }
