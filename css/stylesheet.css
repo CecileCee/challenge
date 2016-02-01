@@ -29,12 +29,42 @@ a:hover {
     text-decoration: none;
 }
 
+p {
+    font-size: 9pt;
+}
 
-/*//////////////////DIV//////////////////*/
-#container {
-    width: 500px;
+
+/*//////////////////HEADER//////////////////*/
+.menu-color {
+    background-color: rgb(17,63,89);
+}
+
+#menu {
+    float: left;
+    width: 9%;
+    height: 100vh;
+    position: fixed;
+}
+
+.fa-ul {
+    display: block;
+    width: 0%;
+    height: auto;
+    list-style-type: circle;
     margin: 0 auto;
-    padding: 10px;
+    padding-left: 40%;
+}
+
+.fa-info-circle {
+    padding: 10%;
+}
+
+
+/*//////////////////DIV CONTAINER//////////////////*/
+#container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .text-center {
@@ -44,6 +74,8 @@ a:hover {
 .div-box {
     background-color: rgb(255,255,255);
     box-shadow: 2px 2px 2px rgb(148,144,128);
+    padding: 25px;
+    margin: 20px;
 }
 
 .border-rounded {
@@ -56,6 +88,38 @@ a:hover {
 }
 
 .list-inline > li {
-    display: inline-block;
     width: 95px;
+}
+
+.block-line {
+    display: inline-block;
+}
+
+#img-txt-line > li {
+    display: inline-block;
+    width: 50%;
+    text-align: justify;
+    padding: 0% 8%;
+}
+
+.block-line > li {
+    display: inline-block;
+}
+
+
+.img-circle {
+    border-radius: 200px;
+}
+
+
+.icon-color {
+    color: rgb(243,237,211);
+}
+
+.img-resize {
+    width: 15%;
+    height: auto;
+    padding-left: 15%;
+    vertical-align: middle;
+    margin: 2% 0%;
 }
