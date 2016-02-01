@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(243, 237, 211);
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(17, 63, 89);
+}
+
+h1, h2, h3 {
+    font-style: 700;
+    color: rgb(213, 79, 88);
+}
+
+a {
+    color: rgb(17, 63, 89);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: rgb(32, 214, 199);
+    text-decoration: none;
+}
