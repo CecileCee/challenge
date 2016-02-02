@@ -47,21 +47,20 @@ p {
 }
 
 .fa-ul {
-    display: block;
-    width: 0%;
-    height: auto;
     list-style-type: circle;
-    margin: 0 auto;
-    padding-left: 40%;
 }
 
-.fa-info-circle {
-    padding: 10%;
+.fa-ul > li {
+    top: 40px;
+    left: 55px;
+    width: 5px;
+    height: 50px;
 }
 
 
 /*//////////////////DIV CONTAINER//////////////////*/
 #container {
+    float: right;
     width: 1000px;
     margin: 0 auto;
     padding: 20px;
